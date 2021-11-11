@@ -1,0 +1,49 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+}
+.carte-interactive {
+  height: 100vh;
+  background-color: #999;
+}
+
+table {
+  font-size: 14pt;
+}
+td {
+  min-width: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: #008ccc;
+}
+
+a:visited {
+  color: #008ccc;
+}
+a:hover {
+  text-decoration: underline;
+  color: #006aaa;
+}
+
+.copyright {
+  position: relative;
+  bottom: 0;
+  font-size: 8pt;
+  margin-bottom: 10px;
+}
+
+.leaflet-popup-content-wrapper {
+font-size : 16pt;
+}
+
+.leaflet-touch.leaflet-bar {
+    width: 70px;
+    height: 70px;
+}
